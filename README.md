@@ -19,6 +19,8 @@ MySQL Details:
 
 Compile & Run the project in eclipse ide.
 
-Please test webservice  in Postman:
+I haved tested webservice in Postman:
 
-I
+{"student_id": 1, "student_name": "surendra", "student_age": 25, "course_id": 154, "department_id": 165}
+
+Please pass the above sample data while testing "POST".
