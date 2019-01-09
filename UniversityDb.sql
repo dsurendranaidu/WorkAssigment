@@ -9,6 +9,9 @@ CREATE TABLE `department`(
    `department_head` varchar(255)
 )ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
+INSERT INTO department (department_id, department_name, department_head) VALUES ("165", "Science", "SomePerson");
+INSERT INTO department (department_id, department_name, department_head) VALUES ("123", "Social", "SomeXPerson");
+
 DROP TABLE IF EXISTS `course`;
 CREATE TABLE `course`(
    `course_id` int NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -16,6 +19,9 @@ CREATE TABLE `course`(
    `department_id` int,
     CONSTRAINT `fk_department_id` FOREIGN KEY (`department_id`) REFERENCES `department` (`department_id`) ON DELETE CASCADE ON UPDATE CASCADE
 )ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+INSERT INTO course (course_id, course_name, department_id) VALUES (986, "Physcis", 165);
+INSERT INTO course (course_id, course_name, department_id) VALUES (323, "History", 123);
 
 DROP TABLE IF EXISTS `student`;
 CREATE TABLE `student` (
