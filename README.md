@@ -11,3 +11,8 @@ Project  Tech Details:
   - Maven 3.5.4
   - Tomcat 8.0
   - Postman (Rest webservices Testing)
+
+MySQL Details:
+  - URL: localhost:3306/university
+  - Username: root
+  - Password: root
