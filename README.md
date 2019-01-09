@@ -13,6 +13,12 @@ Project  Tech Details:
   - Postman (Rest webservices Testing)
 
 MySQL Details:
-  - URL: localhost:3306/university
+  - URL: localhost:3306/university?useTimezone=true&serverTimezone=UTC
   - Username: root
   - Password: root
+
+Compile & Run the project in eclipse ide.
+
+Please test webservice  in Postman:
+
+I
